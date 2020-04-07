@@ -8,12 +8,22 @@
     <title>Real-time-tech</title>
 </head>
 <body>
-    <div id="mario-chat">
+    <section id="usernameSection">
+        <h1>Chat Chat Chat Chat</h1>
+        <div id="usernameForm">
+            <label>
+                Enter your username:
+                <input id="usernameInput" maxlength="16" />
+            </label>
+            <button id="formButton">Next</button>
+        </div>
+    </section>
+
+    <div id="mario-chat" class="hidden">
         <div id="chat-window">
             <div id="output"></div>
             <div id="feedback"></div>
         </div>
-        <input id="handle" type="text" placeholder="handle"/>
         <input id="message" type="text" placeholder="message" />
         <button id="send">Send</button>
     </div>

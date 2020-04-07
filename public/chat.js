@@ -1,27 +1,49 @@
 var socket = io.connect('http://localhost:4000');
 
+let socketUserName = '';
+let inchat = false;
+
 var message = document.getElementById('message'),
-      handle = document.getElementById('handle'),
       btn = document.getElementById('send'),
+      usernameButton = document.getElementById('formButton'),
       output = document.getElementById('output'),
-      feedback = document.getElementById('feedback');
+      feedback = document.getElementById('feedback'),
+      chatWindow = document.getElementById('mario-chat'),
+      userNameSection = document.getElementById('usernameSection'),
+      userNameInput = document.getElementById('usernameInput');
 
 btn.addEventListener('click', function(){
-    socket.emit('chat', {
-        Message: message.value,
-        Handle: handle.value
-    });
+    socket.emit('chat', message.value);
 });
 
 message.addEventListener('keypress', function(){
-    socket.emit('typing', handle.value);
+    socket.emit('typing', socketUserName);
+});
+
+usernameButton.addEventListener('click', function(){
+    socket.emit('new user', userNameInput.value);
+    inchat = true;
 });
 
 socket.on('chat', function(data){
-    output.innerHTML += '<p><strong>' + data.Handle + ': <strong>' + data.Message + '</p>';
+    output.innerHTML += '<p><strong>' + socketUserName + ': <strong>' + data + '</p>';
     feedback.innerHTML = "";
+    message.value = '';
+    console.log('bbbb');
 });
 
-socket.on('typing', function(data){
-    feedback.innerHTML = '<p><em>' + data  + ' is typing a message</em></p>';
+socket.on('typing', function(username){
+    feedback.innerHTML = '<p><em>' + socketUserName  + ' is typing a message</em></p>';
+});
+
+//entered user name
+socket.on('new user', function(username){
+    socketUserName = username;
+    if(inchat){
+        userNameSection.classList.toggle('hidden');
+        chatWindow.classList.toggle('hidden');
+        message.value = '';
+        userNameInput.value = '';
+        inchat = false;
+    }
 });
