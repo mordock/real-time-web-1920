@@ -3,9 +3,11 @@ var socket = require('socket.io');
 
 var app = express();
 
-app.set('port', (process.env.PORT || 4000));
+// app.set('port', (process.env.PORT || 3000));
 
-var server = app.listen(4000, function(){
+const port = process.env.PORT || 4000;
+
+var server = app.listen(port, function(){
     console.log('listening to port 4000');
 });
 
@@ -16,6 +18,10 @@ let hasSworn = false;
 app.use(express.static('public'));
 
 var io = socket(server);
+
+app.get('/', (req, res) => {
+    res.render('index.html');
+})
 
 io.on('connection', function(socket){
     console.log('made socket connection');
