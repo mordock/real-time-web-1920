@@ -2,11 +2,16 @@ var express = require('express');
 var socket = require('socket.io');
 
 var app = express();
+
+app.set('port', (process.env.PORT || 4000));
+
 var server = app.listen(4000, function(){
     console.log('listening to port 4000');
 });
 
 const illegalWordList = ['fuck', 'shit', 'motherfucker', 'twat', 'shitbag', 'wanker', 'cunt', 'bollocks', 'dickhead'];
+
+let hasSworn = false;
 
 app.use(express.static('public'));
 
@@ -22,7 +27,10 @@ io.on('connection', function(socket){
     socket.on('chat', function(data){
         let checkedData = CheckProfanity(data);
         io.sockets.emit('chat', checkedData);
-        io.sockets.emit('server');
+        if(hasSworn){
+            io.sockets.emit('server');
+            hasSworn = false;
+        }
     });
 
     socket.on('typing', function(data){
@@ -37,13 +45,12 @@ function CheckProfanity(data){
     for(let i = 0; i < words.length; i++){
         if(illegalWordList.includes(words[i])){
             words[i] = '****';
+            hasSworn = true;
         }
     }
 
     words = words.toString();
-    console.log(words);
     words = words.replace(/,/g, ' ');
-    console.log(words);
 
     return words;
 }
