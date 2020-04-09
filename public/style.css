@@ -22,6 +22,10 @@ h2{
     background: #f9f9f9;
 }
 
+#server strong{
+    color: red !important;
+}
+
 #output p{
     padding: 14px 0px;
     margin: 0 20px;

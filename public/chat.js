@@ -47,3 +47,7 @@ socket.on('new user', function(username){
         inchat = false;
     }
 });
+
+socket.on('server', function(){
+    output.innerHTML +='<p id="server" ><strong>' + '-server message- ' + socketUserName + ': <strong>' + 'please dont swear in this server!' + '</p>';
+});

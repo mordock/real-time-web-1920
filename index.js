@@ -22,7 +22,7 @@ io.on('connection', function(socket){
     socket.on('chat', function(data){
         let checkedData = CheckProfanity(data);
         io.sockets.emit('chat', checkedData);
-        // console.log(checkedData);
+        io.sockets.emit('server');
     });
 
     socket.on('typing', function(data){
