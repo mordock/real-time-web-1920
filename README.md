@@ -1,5 +1,7 @@
 # My chat app
 
+Link: https://maxweijers-rtw.herokuapp.com/
+
 My unique feature is a profanity filter which censors swear words. This uses a defined array in the code and checks the chat comments against this list on the server.
 
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Screenshot_1.png)
