@@ -1,3 +1,7 @@
+# Exercise 2 - my unique app
+
+Link to repo: https://github.com/mordock/RTW_Exercise_2
+
 # My chat app
 
 Link: https://maxweijers-rtw.herokuapp.com/
@@ -6,14 +10,6 @@ My unique feature is a profanity filter which censors swear words. This uses a d
 
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Screenshot_1.png)
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Screenshot_2.png)
-
-# Exercise 2 - my unique app
-
-## Description
-My app will make use of the Real time API Binance:  
-https://github.com/binance-exchange/binance-official-api-docs  
-This is an API which keeps track of crypto currency(CC) transactions. With this API I want to show the user which CC is, right now, the most profitable. I am considering to use D3 to show a graph of what is happening.  
-In this app the user can change the API call by selecting which CC he wants to see.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
