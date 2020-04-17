@@ -2,6 +2,8 @@
 
 Link to repo: https://github.com/mordock/RTW_Exercise_2
 
+![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram.png)
+
 # My chat app
 
 Link: https://maxweijers-rtw.herokuapp.com/
