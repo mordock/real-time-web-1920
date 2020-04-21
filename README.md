@@ -1,7 +1,7 @@
 # Exercise 2 - Crypto
 
 Link to repo: https://github.com/mordock/RTW_Exercise_2  
-No live link yet!
+Link to app: https://maxweijers-rtw-crypto.herokuapp.com/  
 
 ## Concept
 A website to help you make short term decisions if you want to invest in Crypto curreny.
@@ -21,7 +21,7 @@ Nodemon is a dev package for auto refreshing your server
 - [ ] Simple rooms so users can talk per currency about what's happening
 
 ## DLC diagram
-![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram.png)
+![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram2.png)
 
 ## Packages
 - [Node](https://nodejs.org/)
