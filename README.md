@@ -1,8 +1,28 @@
-# Exercise 2 - my unique app
+# Exercise 2 - Crypto
 
 Link to repo: https://github.com/mordock/RTW_Exercise_2
 
+## Table of contents
+
+- [To do](#to-do-)
+- [Description](#description-)
+- [Installing](#installing-)
+- [Data Lifecycle Diagram](#data-lifecycle)
+- [Packages & Services](#packages--services)
+- [How it works](#how-it-works-)
+- [Technologies Used](#technologies-used-)
+  - [Websockets](#websockets)
+  - [Express-ws](#express-ws)
+- [Goals](#goals)
+
+## To do
+
+## Description
+
+## DLC diagram
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram.png)
+
+## Packages
 
 # My chat app
 
