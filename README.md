@@ -1,6 +1,7 @@
 # Exercise 2 - Crypto
 
-Link to repo: https://github.com/mordock/RTW_Exercise_2
+Link to repo: https://github.com/mordock/RTW_Exercise_2  
+No live link yet!
 
 ## Concept
 A website to help you make short term decisions if you want to invest in Crypto curreny.
@@ -24,6 +25,13 @@ A website to help you make short term decisions if you want to invest in Crypto 
 - [Socket.io](https://socket.io/)
 - [Binance](https://www.npmjs.com/package/binance)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
+
+## API
+Official documentation: https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md  
+NPM package documentation: https://www.npmjs.com/package/binance  
+
+Example realtime data object:  
+![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Object.png)
 
 ## Goals
 
