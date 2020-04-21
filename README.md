@@ -15,9 +15,9 @@ Link to repo: https://github.com/mordock/RTW_Exercise_2
   - [Express-ws](#express-ws)
 - [Goals](#goals)
 
-## To do
+## To do 
 
-## Description
+## description 
 
 ## DLC diagram
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram.png)
