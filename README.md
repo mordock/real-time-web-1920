@@ -2,20 +2,16 @@
 
 Link to repo: https://github.com/mordock/RTW_Exercise_2
 
-## Table of contents
-
-- [To do](#to-do-)
-- [Description](#description-)
-- [Installing](#installing-)
-- [Data Lifecycle Diagram](#data-lifecycle)
-- [Packages & Services](#packages--services)
-- [How it works](#how-it-works-)
-- [Technologies Used](#technologies-used-)
-  - [Websockets](#websockets)
-  - [Express-ws](#express-ws)
-- [Goals](#goals)
+## Concept
+A website to help you make short term decisions if you want to invest in Crypto curreny.
 
 ## To do 
+
+- [x] Receive realtime data from the Binace API
+- [x] Filter data by the minute so it's usefull for the user
+- [ ] Get data from different Crypto currencies
+- [ ] Simple chat so users can talk globally about what's happening
+- [ ] Simple rooms so users can talk per currency about what's happening
 
 ## description 
 
@@ -23,6 +19,18 @@ Link to repo: https://github.com/mordock/RTW_Exercise_2
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram.png)
 
 ## Packages
+- [Node](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Socket.io](https://socket.io/)
+- [Binance](https://www.npmjs.com/package/binance)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+
+## Goals
+
+- Deal with real-time complexity
+- Handle real-time client-server interaction
+- Handle real-time data management
+- Handle multi-user support
 
 # My chat app
 
