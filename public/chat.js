@@ -29,7 +29,6 @@ socket.on('chat', function(data){
     output.innerHTML += '<p><strong>' + socketUserName + ': <strong>' + data + '</p>';
     feedback.innerHTML = "";
     message.value = '';
-    console.log('bbbb');
 });
 
 socket.on('typing', function(username){
