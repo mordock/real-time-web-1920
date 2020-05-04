@@ -57,12 +57,12 @@ Example realtime data object:
 - Handle multi-user support
 
 ## Rubric
-- De app staat online. Uit de documentatie kan worden afgeleid wat het project inhoudt. De data life cycle, real-time events, en externe databron zijn beschreven.  
+- **De app staat online. Uit de documentatie kan worden afgeleid wat het project inhoudt. De data life cycle, real-time events, en externe databron zijn beschreven.  **
 - [DLC diagram](#DLC-diagram)
 - [Real-time events](#Real-time-event)
 - [API](#API)
--	Er is voldoende real-time functionaliteit om begrip te toetsen. Een groot deel van de functionaliteit is zelf geschreven. Student is in staat online voorbeelden naar zijn/haar hand te zetten.
-- De user kan door interactie met de app het datamodel van de server in real time beïnvloeden door direct data aan te passen OF door de API requests tussen server en source te beïnvloeden. De student heeft eigenhandig de datamanipulaties opgezet.  
+-	**Er is voldoende real-time functionaliteit om begrip te toetsen. Een groot deel van de functionaliteit is zelf geschreven. Student is in staat online voorbeelden naar zijn/haar hand te zetten.**
+- **De user kan door interactie met de app het datamodel van de server in real time beïnvloeden door direct data aan te passen OF door de API requests tussen server en source te beïnvloeden. De student heeft eigenhandig de datamanipulaties opgezet.**  
 In mijn geval kan de user de API calls veranderen:  
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/btc.png)  
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/eth.png)
