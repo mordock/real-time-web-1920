@@ -62,9 +62,16 @@ Example realtime data object:
 - [Real-time events](#Real-time-event)
 - [API](#API)
 -	**Er is voldoende real-time functionaliteit om begrip te toetsen. Een groot deel van de functionaliteit is zelf geschreven. Student is in staat online voorbeelden naar zijn/haar hand te zetten.**  
+
 - **De user kan door interactie met de app het datamodel van de server in real time beïnvloeden door direct data aan te passen OF door de API requests tussen server en source te beïnvloeden. De student heeft eigenhandig de datamanipulaties opgezet.**  
-In mijn geval kan de user de API calls veranderen:  
+In my case you can change the API call: 
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/btc.png)  
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/eth.png)
+
+- **De server houdt een datamodel bij en elke client wordt de juiste data doorgestuurd.**  
+The server remembers the amount of currency of the current minute, after that it gets send to the current user who are 'subscribed' the that currency and resets that amount. 
+
+- **Meerdere clients kunnen verbinden met de server. Interactie werkt zoals verwacht en is niet afhankelijk van hoeveel clients aanwezig zijn. De student kan uitleggen hoe de app dit aanpakt.**  
+
 
 [rubric]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSd1I4ma8R5mtVMyrbp6PA2qEInWiOialK9Fr2orD3afUBqOyvTg_JaQZ6-P4YGURI-eA7PoHT8TRge/pubhtml
