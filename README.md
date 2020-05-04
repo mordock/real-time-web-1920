@@ -61,6 +61,11 @@ Example realtime data object:
 - [DLC diagram](#DLC-diagram)
 - [Real-time events](#Real-time-event)
 - [API](#API)
--	Er is voldoende real-time functionaliteit om begrip te toetsen. Een groot deel van de functionaliteit is zelf geschreven. Student is in staat online voorbeelden naar zijn/haar hand te zetten
+-	Er is voldoende real-time functionaliteit om begrip te toetsen. Een groot deel van de functionaliteit is zelf geschreven. Student is in staat online voorbeelden naar zijn/haar hand te zetten.
+- De user kan door interactie met de app het datamodel van de server in real time beïnvloeden door direct data aan te passen OF door de API requests tussen server en source te beïnvloeden.
+De student heeft eigenhandig de datamanipulaties opgezet.  
+In mijn geval kan de user de API calls veranderen:
+![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/btc.png)
+![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/eth.png)
 
 [rubric]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSd1I4ma8R5mtVMyrbp6PA2qEInWiOialK9Fr2orD3afUBqOyvTg_JaQZ6-P4YGURI-eA7PoHT8TRge/pubhtml
