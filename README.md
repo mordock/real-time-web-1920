@@ -61,7 +61,6 @@ Example realtime data object:
 - [DLC diagram](#DLC-diagram)
 - [Real-time events](#Real-time-event)
 - [API](#API)
-
 -	Er is voldoende real-time functionaliteit om begrip te toetsen. Een groot deel van de functionaliteit is zelf geschreven. Student is in staat online voorbeelden naar zijn/haar hand te zetten
 
 [rubric]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSd1I4ma8R5mtVMyrbp6PA2qEInWiOialK9Fr2orD3afUBqOyvTg_JaQZ6-P4YGURI-eA7PoHT8TRge/pubhtml
