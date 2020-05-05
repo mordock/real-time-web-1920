@@ -21,7 +21,7 @@ Nodemon is a dev package for auto refreshing your server
 - [x] Simple rooms so users can talk per currency about what's happening
 
 ## DLC diagram
-![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram2.png)
+![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/Blank%20Diagram.png)
 
 ## Real-time event
 The website uses several real time events which get send over on a user action or at a constant rate:
