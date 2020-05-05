@@ -6,11 +6,15 @@ Link to app: https://maxweijers-rtw-crypto.herokuapp.com/
 ## Concept
 A website to help you make short term decisions if you want to invest in Crypto curreny. This is done by showing you how much of a certain crypto currency is curculated every minute. In addition to this it has a chat functionality for the different currency so you can discuss tactics and happenings with the currencies. 
 
+## Features
+Show user the amount of currency traded every 5 seconds if one is selected. Also every minute the amount is saved to a list so the user can see the differences with every minute. This works for both Bitcoin and Ethereum.
+A chat functionality with 3 different rooms, global, Bitcoin and Ethereum. So people can discuss what's happening to those currencies.
+
 ## Install
 Clone or download the project.   
 Npm intall the following packages:  
 Express, Socket.io and binance.
-Nodemon is a dev package for auto refreshing your server  
+Nodemon is a dev package for auto refreshing your server.    
 
 ## To do 
 
