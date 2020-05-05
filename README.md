@@ -60,18 +60,25 @@ Example realtime data object:
 - **De app staat online. Uit de documentatie kan worden afgeleid wat het project inhoudt. De data life cycle, real-time events, en externe databron zijn beschreven.**  
 - [DLC diagram](#DLC-diagram)
 - [Real-time events](#Real-time-event)
-- [API](#API)
+- [API](#API)  
+
 -	**Er is voldoende real-time functionaliteit om begrip te toetsen. Een groot deel van de functionaliteit is zelf geschreven. Student is in staat online voorbeelden naar zijn/haar hand te zetten.**  
+I use the Binance package to call the API, this helps you with the API calls, instead of have to build it yourself you can call certain methods which will give you data about certain currencies when gives the correct parameters. It helps streamline the connection between the API and the user(me).
+The actual logic of what to do with the data is written by myself. 
 
 - **De user kan door interactie met de app het datamodel van de server in real time beïnvloeden door direct data aan te passen OF door de API requests tussen server en source te beïnvloeden. De student heeft eigenhandig de datamanipulaties opgezet.**  
-In my case you can change the API call: 
+In my case you can change the API call:  
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/btc.png)  
 ![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/eth.png)
 
 - **De server houdt een datamodel bij en elke client wordt de juiste data doorgestuurd.**  
-The server remembers the amount of currency of the current minute, after that it gets send to the current user who are 'subscribed' the that currency and resets that amount. 
+The server remembers the amount of currency of the current minute, this gets send every 5 seconds. After a minute a final value will be send to you for a list of previous minutes. This only happens to people who are 'subscribed' to the currency. 
 
 - **Meerdere clients kunnen verbinden met de server. Interactie werkt zoals verwacht en is niet afhankelijk van hoeveel clients aanwezig zijn. De student kan uitleggen hoe de app dit aanpakt.**  
+The amount of traded currency is regulated on the server, this causes every user who subscribes to a currency to be send the data. Then the client handles displaying this data. So if people join at different points in time they will see the same data, but some will have more or less data. So people can always discuss the sama data in the chats. 
 
+## Future improvements  
+- Have data already seen be persistant if you close the tab.  
+- Show different info about the transaction, like transaction cost and amount of made transactions.  
 
 [rubric]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSd1I4ma8R5mtVMyrbp6PA2qEInWiOialK9Fr2orD3afUBqOyvTg_JaQZ6-P4YGURI-eA7PoHT8TRge/pubhtml
