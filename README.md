@@ -9,6 +9,7 @@ A website to help you make short term decisions if you want to invest in Crypto 
 ## Features
 Show user the amount of currency traded every 5 seconds if one is selected. Also every minute the amount is saved to a list so the user can see the differences with every minute. This works for both Bitcoin and Ethereum.
 A chat functionality with 3 different rooms, global, Bitcoin and Ethereum. So people can discuss what's happening to those currencies.
+![alt_text](https://github.com/mordock/real-time-web-1920/blob/master/course/resources/website.png)
 
 ## Install
 Clone or download the project.   
