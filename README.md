@@ -3,6 +3,9 @@
 Link to repo: https://github.com/mordock/RTW_Exercise_2  
 Link to app: https://maxweijers-rtw-crypto.herokuapp.com/  
 
+Shoutout to Nathan for helping me with the server:  
+https://github.com/NathanKeyzer/real-time-web-1920
+
 ## Concept
 A website to help you make short term decisions if you want to invest in Crypto curreny. This is done by showing you how much of a certain crypto currency is curculated every minute. In addition to this it has a chat functionality for the different currency so you can discuss tactics and happenings with the currencies. 
 
